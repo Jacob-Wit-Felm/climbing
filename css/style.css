@@ -65,6 +65,7 @@ table {
 .button {
 	background: transparent;
 	border: none;
+	color: red;
 }
 
 .button:hover {
@@ -99,7 +100,12 @@ table {
 }
 
 .header__logo {
+	display: flex;
+	justify-content: center;
 	width: 5%;
+}
+
+.logo_svg {
 }
 
 .nav {
@@ -163,8 +169,8 @@ table {
 .intro {
 	position: relative;
 	padding: auto;
-	height: 35vh;
-	min-height: 200px;
+	height: 50vh;
+	min-height: 400px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -211,9 +217,9 @@ table {
 }
 
 .article__header {
-	position: absolute;
 	max-width: 500px;
 	padding: 20px 20px;
+	z-index: 1;
 }
 
 .article__image {
@@ -221,6 +227,7 @@ table {
 	top: 50%;
 	left: 50%;
 	transform: translate3d(-50%, -50%, 0);
+	z-index: -1;
 }
 
 .article__title__wrap {
@@ -328,11 +335,27 @@ table {
 	grid-row-end: 25;
 }
 
-.article__title::after {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 500px;
-	width: 500px;
+.article__title:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    content: "";
+    overflow: hidden;
+    z-index: 1;
 }
 
+
+/* Footer */
+
+.footer {
+	position: relative;
+	margin-top: 200px;
+	overflow: hidden;
+}
+
+.footer__bg {
+	height: 100%;
+	width: 100%;
+}
