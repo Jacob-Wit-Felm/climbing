@@ -67,6 +67,9 @@ table {
 	border: none;
 }
 
+.button:hover {
+	cursor: pointer;
+}
 
 /* Container */
 
@@ -99,10 +102,6 @@ table {
 	width: 5%;
 }
 
-.logo_svg {
-	height: 100%;
-}
-
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -132,6 +131,8 @@ table {
 
 .search__box__input{
 	width: 100%;
+	border: none;
+	border-radius: 3px;
 }
 
 .header__socialmedia{
@@ -334,3 +335,4 @@ table {
 	height: 500px;
 	width: 500px;
 }
+
