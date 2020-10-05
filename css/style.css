@@ -83,7 +83,13 @@ table {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1270px;
+	max-width: 1170px;
+}
+
+.body_container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 
 /* Headers */
@@ -366,7 +372,7 @@ table {
     z-index: 1;
 }
 
-/* Recent articles */
+/* Articles feed */
 
 .articles {
 	margin-top: 200px;
@@ -378,6 +384,13 @@ table {
 	grid-auto-rows: 500px;
 	grid-gap: 10px;
 
+}
+
+/* Aside */
+
+.aside__container {
+	width: 200px;
+	height: 800px;
 }
 
 /* Footer */
