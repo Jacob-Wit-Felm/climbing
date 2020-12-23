@@ -1,0 +1,6 @@
+		<p>WARNING! The activities described on Climbing Life carry a significant risk of personal injury or death. DO NOT participate in these activities unless you are an expert, have sought or obtained qualified professional instruction or guidance, are knowledgeable about the risks involved, and are willing to assume personal responsibility for all risks associated with these activities. Climb life LLC MAKES NO WARRANTIES, EXPRESSED OR IMPLIED, OF ANY KIND REGARDING THE CONTENTS OF THIS WEBSITE, AND EXPRESSLY DISCLAIMS ANY WARRANTY REGARDING THE ACCURACY OR RELIABILITY OF INFORMATION CONTAINED HEREIN. Climbing Life LLC further disclaims any responsibility for injuries or death incurred by any person engaging in these activities. Use the information contained in this website at your own risk, and do not depend on the information contained in this website for personal safety or for determining whether to attempt any activity described herein.
+
+Climbing Life LLC is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com and.
+
+Copyright © 2020 Climbing Life LLC. All Rights Reserved.
+</p>

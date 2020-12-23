@@ -179,51 +179,30 @@ table {
 
 /* Intro */
 .intro {
-	position: relative;
-	padding: auto;
-	height: 100vh;
-	min-height: 400px;
+	height: 30vh;
+	min-height: 300px;
 	display: flex;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 	align-items: center;
-	background-color: #0e1223;
+	background-color: #121C2C;
 	overflow: hidden;
-/*	background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
-	background-repeat: no-repeat;*/
-
 }
 
-.intro__backgroud {
+.intro__logo {
 	position: absolute;
+	left: 4%;
+	height: inherit;
+}
+
+.intro__background {
+	/*position: absolute;*/
 	width: 100%;
-	top: 0;
-	left: 50%;
-	transform: translate3d(-50%, 0, 0);
-	opacity: .4;
 }
 
-.intro__title {
-	position: absolute;
-	padding: 20px;
-	text-transform: capitalize;	
-	font-size: 40px;
-	color: white;
-	font-family: 'Monda', sans-serif;
-}
-
-.h1__title {
-	padding: 20px;
-	text-align: center;
-	text-transform: capitalize;	
-	font-size: 40px;
-	color: black;
-	font-family: 'Monda', sans-serif;
-}
-
-/* Best articles */
+/* Feed */
 
 .best__articles {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .best__articles__wrap {
