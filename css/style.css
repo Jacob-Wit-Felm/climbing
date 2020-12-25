@@ -112,7 +112,7 @@ table {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.2em;
 
@@ -385,6 +385,12 @@ table {
 .footer {
 	padding: 20px;
 	background-color: #121C2C;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 25px;
 }
 
 .footer__background {
