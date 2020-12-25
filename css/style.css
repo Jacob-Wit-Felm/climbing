@@ -83,7 +83,12 @@ table {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1270px;
+	max-width: 1330px;
+}
+
+.main {
+	display: flex;
+	justify-content: space-around;
 }
 
 /* Headers */
@@ -103,6 +108,15 @@ table {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.2em;
+
+	color: #FFFFFF;
 }
 
 .header__logo {
@@ -143,8 +157,9 @@ table {
 
 .search__box__input{
 	width: 100%;
-	border: none;
-	border-radius: 3px;
+	border: 1px solid white;
+	border-radius: 2px;
+	background-color: transparent;
 }
 
 .header__socialmedia{
@@ -190,6 +205,9 @@ table {
 /* Feed */
 
 .best__articles {
+	width: 80%;
+	max-width: 1500px;
+
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -356,8 +374,9 @@ table {
 
 /* Aside */
 
-.aside__container {
-	width: 200px;
+.aside {
+	width: 15%;
+	max-width: 300px;
 	height: 800px;
 }
 
