@@ -83,26 +83,20 @@ table {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1170px;
-}
-
-.body_container {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+	max-width: 1270px;
 }
 
 /* Headers */
 
 .header {
-	position: absolute;
+	position: fixed;
 	padding: 2px 15px;
 	width: 100%;
 
 	background: rgba(17, 41, 47, 0.7);
 	font-family: 'Montserrat';
 	font-size: 15px;
-	z-index: 1;
+	z-index: 100;
 }
 
 .header__inner {
@@ -179,23 +173,17 @@ table {
 
 /* Intro */
 .intro {
-	height: 30vh;
-	min-height: 300px;
+	padding-top: 50px;
 	display: flex;
-	/*justify-content: space-around;*/
 	align-items: center;
 	background-color: #121C2C;
-	overflow: hidden;
 }
 
 .intro__logo {
 	position: absolute;
-	left: 4%;
-	height: inherit;
 }
 
 .intro__background {
-	/*position: absolute;*/
 	width: 100%;
 }
 
@@ -203,6 +191,7 @@ table {
 
 .best__articles {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .best__articles__wrap {
@@ -375,12 +364,78 @@ table {
 /* Footer */
 
 .footer {
-	position: relative;
-	margin-top: 200px;
-	overflow: hidden;
+	padding: 20px;
+	background-color: #121C2C;
 }
 
-.footer__bg {
-	height: 100%;
+.footer__background {
+	position: absolute;
 	width: 100%;
+	z-index: -1;
+}
+
+.footer__inner {
+	padding-top: 30px;
+
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.footer__item {
+	width: 22.22222%;
+	text-align: center;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer__item:last-child {
+	width: 33.22222%;
+
+}
+
+.footer__logo {
+	width: 50px;
+}
+
+.footer__title {
+	color: white;
+}
+
+.footer__link {
+	width: 100%;
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.footer__link:hover {
+	text-decoration: underline;
+}
+
+.footer__signup {
+	width: 100%;
+
+}
+
+.footer__input {
+	padding: 5px;
+	width: 100%;
+
+	color: white;
+	background-color: #121C2C;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+
+.footer__input:focus {
+	background-color: white;
+}
+
+.arrow {
+	position: relative;
+	bottom: 40%;
+	left: 40%;
 }
