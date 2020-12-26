@@ -83,7 +83,7 @@ table {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1330px;
+	max-width: 1230px;
 }
 
 .main {
@@ -104,7 +104,12 @@ table {
 	z-index: 100;
 }
 
+.header:hover {
+	background: rgba(17, 41, 47, 1);
+}
+
 .header__inner {
+	padding: 5px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -158,7 +163,6 @@ table {
 .search__box__input{
 	width: 100%;
 	border: 1px solid white;
-	border-radius: 2px;
 	background-color: transparent;
 }
 
@@ -174,6 +178,10 @@ table {
 
 .header__svg {
 	width: 18px;
+}
+
+
+.header__svg:hover {
 }
 
 .header__inner__lang {
@@ -383,8 +391,8 @@ table {
 /* Footer */
 
 .footer {
+	height: 300px;
 	padding: 20px;
-	background-color: #121C2C;
 
 	font-family: Open Sans;
 	font-style: normal;
@@ -393,10 +401,14 @@ table {
 	line-height: 25px;
 }
 
-.footer__background {
-	position: absolute;
+.footer__svg {
+	position: relative;
+	top: 20px;
 	width: 100%;
-	z-index: -1;
+}
+
+.footer__wrapper {
+	background-color: #121C2C;
 }
 
 .footer__inner {
