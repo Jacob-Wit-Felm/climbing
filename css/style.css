@@ -424,7 +424,19 @@ table {
 }
 
 .footer__copywriting {
-	padding: 40px 0;
+	padding-top: 40px;
+}
+
+.copywriting__text {
+	text-decoration: none;
+	color: white;
+
+	font-family: Montserrat;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 20px;
+	letter-spacing: 0.01em;
 }
 
 .footer__nav {
