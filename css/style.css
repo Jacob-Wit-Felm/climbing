@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	height: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -83,10 +84,10 @@ table {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1330px;
+	max-width: 1130px;
 }
 
-.main {
+.content {
 	display: flex;
 	justify-content: space-around;
 }
