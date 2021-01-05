@@ -152,7 +152,11 @@ table {
 .header__info {
 	display: flex;
 	align-items: center;
-	width: 30%;
+	width: 40%;
+}
+
+.sun__svg {
+	fill: black;
 }
 
 .search__box {
@@ -161,9 +165,18 @@ table {
 }
 
 .search__box__input{
+	padding: 3px 10px;
 	width: 100%;
 	border: 1px solid white;
 	background-color: transparent;
+
+	font-family: 'Monda', sans-serif;
+	font-size: 12px; 
+}
+
+.search__box__input:focus {
+	background-color: white;
+
 }
 
 .header__socialmedia{
@@ -178,10 +191,7 @@ table {
 
 .header__svg {
 	width: 20px;
-}
-
-
-.header__svg:hover {
+	fill: white;
 }
 
 .header__inner__lang {
@@ -511,7 +521,7 @@ table {
 }
 
 .footer__input:focus {
-	/*background-color: white;*/
+	background-color: white;
 	color: black;
 }
 
@@ -531,3 +541,4 @@ table {
 	fill: red;
 }
 
+@media (max-width: )
