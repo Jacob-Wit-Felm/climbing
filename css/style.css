@@ -627,7 +627,7 @@ table {
 
 	.header {
 		position: sticky;
-		padding: 5px 15px;
+		padding: 0px 15px;
 		background: rgba(17, 41, 47, 1);
 
 	}
