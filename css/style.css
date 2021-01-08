@@ -79,7 +79,13 @@ table {
 	color: white;
 }
 
-.theme_button {
+.theme__button {
+	padding: 0;
+	width: 50px;
+	height: 50px;
+
+	background: url(../images/sun.svg) 100% no-repeat;
+	background-size: 32px;
 }
 
 /* Container */
@@ -167,6 +173,11 @@ table {
 	fill: black;
 }
 
+.header__theme {
+	display: flex;
+	align-items: center;
+}
+
 .search__box {
 	padding: 0 10px;
 	width: 100%;
@@ -204,14 +215,6 @@ table {
 	height: 28.1px;
 
 	fill: white;
-}
-
-.theme__button {
-	width: 50px;
-	height: 50px;
-
-	background: url(../images/sun.svg) 50% no-repeat;
-	background-size: 30px;
 }
 
 .header__inner__lang {
