@@ -64,7 +64,7 @@ table {
 	box-sizing: border-box;
 }
 
-/* Button */
+/* Buttons */
 .button {
 	background: transparent;
 	border: none;
@@ -98,6 +98,25 @@ table {
 	height: 20px;
 
 	background: url(../images/search.svg) 0% no-repeat;
+	background-size: cover;
+}
+
+.lang__button {
+	width: 20px;
+	height: 20px;
+
+	background: url(../images/globe.svg) 50% no-repeat;
+	background-size: cover;
+}
+.submit {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+
+	width: 30px;
+	height: 14px;
+
+	background: url(../images/arrow.svg) 50% no-repeat;
 	background-size: cover;
 }
 
@@ -407,14 +426,17 @@ table {
 }
 
 .footer__inner {
+	padding: 5px;
 	padding-top: 30px;
 	width: 100%;
 
 	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .footer__logo {
-	width: 30%;
+	width: 20%;
 	padding: 15px;
 }
 
@@ -423,15 +445,12 @@ table {
 }
 
 .footer__copywriting {
-	padding-top: 40px;
-}
+	padding-top: 30px;
 
-.copywriting__text {
-	text-decoration: none;
 	color: white;
 
 	font-family: Montserrat;
-	font-size: 10px;
+	font-size: 9px;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 20px;
@@ -439,11 +458,9 @@ table {
 }
 
 .footer__nav {
-	margin-left: 100px;
 	width: 69%;
 
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -476,6 +493,12 @@ table {
 	font-size: 14px;
 	color: white;
 	margin-bottom: 10px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
 }
 
 .footer__link:hover {
@@ -483,30 +506,32 @@ table {
 }
 
 .footer__signup {
-	width: 100%;
-	display: flex;
-	align-items: center;
+	width: 80%;
+	margin: 10px 0;
 }
 
 .signup {
 	width: 100%;
+	display: grid;
+	grid-template-areas: 'email';
+	position: relative;
 }
 
 .footer__input {
-	padding: 4px;
-	width: 50%;
+	padding: 12px 9px;
+	width: 100%;
 
 	background-color: #121C2C;
 	border: 1px solid white;
-	border-radius: 1px;
 
-	font-family: Open Sans;
+	font-family: Montserrat;
 	font-style: normal;
-	font-weight: bold;
-	font-size: 12px;
-	line-height: 23px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
 
 	color: rgba(255, 255, 255, 0.5);
+	grid-area: email;
 
 }
 
@@ -605,6 +630,22 @@ table {
 		font-size: 15px;
 	}
 
+	.footer__logo {
+		display: none;
+	}
 
+	.signup {
+		display: grid;
 
+		grid-template-areas: 'email';
+		position: relative;
+	}
+
+	.footer__nav {
+		width: 100%;
+	}
+
+	.footer__link {
+		font-size: 12px;
+	}
 }
